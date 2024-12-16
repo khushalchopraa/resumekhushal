@@ -1,0 +1,110 @@
+body {
+    font-family: "proxima-nova-1", "proxima-nova-2", "Arimo", Helvetica, sans-serif;
+    color: #000;
+    line-height: 28px;
+    border: 2px solid black;
+    box-sizing: border-box;
+
+}
+
+#pic {
+
+
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.personaldetails {
+    background-color: #304ca2;
+    display: flex;
+    gap: 100px;
+    text-align: center;
+}
+
+
+
+.personal {
+
+    gap: 20px;
+    font-size: 15px;
+    background-color: #0c1635;
+    color: whitesmoke;
+
+}
+
+.link-text {
+    text-decoration: none;
+    color: whitesmoke
+}
+
+
+
+
+
+/*-----------layout----*/
+
+.summary {
+    display: flex;
+    gap: 200px;
+    padding-top: 40px;
+    padding-left: 80px;
+    flex-wrap: wrap;
+}
+
+.left-summary {
+    width: 500px;
+}
+
+.right-summary {
+    width: 500px;
+    gap: 50px;
+}
+
+/*-------layout leftexp-----*/
+.left-exp {
+    display: flex;
+    gap: 200px;
+    padding-left: 80px;
+    flex-wrap: wrap;
+}
+
+.exp {
+    width: 500px;
+}
+
+/*-----------projects--------*/
+.projects {
+
+    padding-left: 80px;
+}
+
+span {
+    gap: 20px;
+}
+
+/*-------mediaquery-----*/
+@media(max-width: 450px) {
+    .personaldetails p {
+        display: none;
+    }
+
+    .right-summary {
+        padding-right: 200px;
+        margin-top: -200px;
+    }
+
+    .language {
+        padding-right: 300px;
+        margin-top: -200px;
+    }
+
+    .nameinfo {
+        display: none;
+    }
+
+    .container {
+        margin-left: -80px;
+
+    }
+}
